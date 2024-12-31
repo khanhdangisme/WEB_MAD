@@ -5,12 +5,6 @@
     background-color: #A8A8E8;
 }
 
-.home img{
-    height: 30px;
-    margin-top: 30px;
-    margin-left: 30px;
-}
-
 .menu{
     display: flex;
     margin-top: 40px;
@@ -39,47 +33,30 @@
     height: 100px;
 }
 
-.body{
+.body-tong{
     background-color: #F4F4FE;
-    display: flex;
-    padding-top: 70px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
-.MAD h1{
+.chapter{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin-left: 50px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 30%;
 }
 
-.MAD p{
-    margin-left: 50px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-.giaosu{
-    margin-right: 100px;
-    margin-top: 210px;
-}
-
-.body-logo {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 20px;
-    background: linear-gradient(to bottom, #f4f4fe 50%, #CCCCCC 50%);
-}
-
-.the{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+.chap{
     background: white;
     border: 1px solid #ddd;
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    text-align: center;
-    padding: 20px;
-    width: 200px;
+    padding: 10px;
+    margin: 15px;
 }
 
-.the:hover{
+.chap:hover{
     transform: scale(1.1);
 }
 
@@ -90,4 +67,3 @@
     justify-content: space-around;
     background-color: #CCCCCC;
 }
-
