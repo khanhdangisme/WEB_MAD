@@ -1,7 +1,8 @@
 .header{
+    width: 100%;
     display: flex;
     justify-content: space-between;
-    background-color: #F4F4FE;
+    background-color: #A8A8E8;
 }
 
 .home img{
@@ -25,8 +26,8 @@
 }
 
 .menu a:hover{
-    color: orange;
-
+    color: white;
+    transform: scale(1.1);
 }
 
 .tieude{
@@ -38,8 +39,55 @@
     height: 100px;
 }
 
-.clone{
-    margin: 0;
-    padding: 0;
-    border: 0;
+.body{
+    background-color: #F4F4FE;
+    display: flex;
+    padding-top: 70px;
 }
+
+.MAD h1{
+    margin-left: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.MAD p{
+    margin-left: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.giaosu{
+    margin-right: 100px;
+    margin-top: 210px;
+}
+
+.body-logo {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    background: linear-gradient(to bottom, #f4f4fe 50%, #CCCCCC 50%);
+}
+
+.the{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 20px;
+    width: 200px;
+}
+
+.the:hover{
+    transform: scale(1.1);
+}
+
+.body-cuoi{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    background-color: #CCCCCC;
+}
+

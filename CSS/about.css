@@ -1,0 +1,62 @@
+.header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #F4F4FE;
+}
+
+.home img{
+    height: 30px;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.menu{
+    display: flex;
+    margin-top: 40px;
+    padding-right: 20px;
+}
+
+.menu a{
+    padding-right: 40px;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.menu a:hover{
+    color: orange;
+    transform: scale(1.1);
+}
+
+.tieude{
+    margin-left: 30px;
+    padding: auto;
+}
+
+.tieude img{
+    height: 100px;
+}
+
+.body{
+    display: flex;
+}
+
+.anhProfile img{
+    border-radius: 50%;
+    width: 50%;
+    margin-left: 100px;
+    margin-top: 40px;
+}
+
+.gioithieu p{
+    margin-left: 140px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+}
+
+.banthan{
+    margin-top: 50px;
+    font-size: 20px;
+}
