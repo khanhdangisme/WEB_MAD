@@ -2,7 +2,7 @@
     width: 100%;
     display: flex;
     justify-content: space-between;
-    background-color: #F4F4FE;
+    background-color: #A8A8E8;
 }
 
 .home img{
@@ -40,7 +40,11 @@
 }
 
 .body{
+    background-color: #F4F4FE;
     display: flex;
+    padding-right: 100px;
+    padding-bottom: 100px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .anhProfile img{
@@ -51,12 +55,19 @@
 }
 
 .gioithieu p{
-    margin-left: 140px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 120px;
     font-size: 25px;
 }
 
 .banthan{
     margin-top: 50px;
     font-size: 20px;
+}
+
+.body-cuoi{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    background-color: #CCCCCC;
 }
