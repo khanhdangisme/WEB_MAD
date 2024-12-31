@@ -1,0 +1,45 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #F4F4FE;
+}
+
+.home img{
+    height: 30px;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.menu{
+    display: flex;
+    margin-top: 40px;
+    padding-right: 20px;
+}
+
+.menu a{
+    padding-right: 40px;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.menu a:hover{
+    color: orange;
+
+}
+
+.tieude{
+    margin-left: 30px;
+    padding: auto;
+}
+
+.tieude img{
+    height: 100px;
+}
+
+.clone{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
